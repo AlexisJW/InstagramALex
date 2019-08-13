@@ -18,9 +18,10 @@
 
     <Button
         android:id="@+id/btnCaptureImage"
-        android:text="Take a picture"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnSubmit"
+        android:text="Take picture" />
 
     <ImageView
         android:id="@+id/ivPostImage"
@@ -30,8 +31,21 @@
 
     <Button
         android:id="@+id/btnSubmit"
-        android:text="Post"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Post" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <ProgressBar
+        android:id="@+id/pbLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
 
 </LinearLayout>

@@ -15,7 +15,7 @@ public class ParseApplication extends Application {
         // any network interceptors must be added with the Configuration Builder given this syntax
         // Register your parse models
         ParseObject.registerSubclass(Post.class);
-        Parse.initialize(new Parse.Configuration.Builder(this)
+        Parse.initialize(new Parse.Configuration.Builder(ParseApplication.this)
                 .applicationId("instagram-alex") // should correspond to APP_ID env variable
                 .clientKey("aeisxlwlnr1993")  // set explicitly unless clientKey is explicitly configured on Parse server
                 .server("http://instagram-alex.herokuapp.com/parse/").build());
