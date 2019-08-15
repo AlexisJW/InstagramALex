@@ -13,6 +13,7 @@ import android.widget.Toast;
 import com.example.instagramalex.fragment.ComposeFragment;
 import com.example.instagramalex.fragment.Logout;
 import com.example.instagramalex.fragment.PostsFragment;
+import com.example.instagramalex.fragment.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
@@ -42,7 +43,8 @@ public class MainActivity extends AppCompatActivity {
                         fragment = new ComposeFragment();
                         break;
                     case R.id.action_user:
-                        fragment = new Logout();
+                        //fragment = new Logout();
+                        fragment = new ProfileFragment();
                     default:
                         break;
                 }
