@@ -64,7 +64,7 @@ public class PostsFragment extends Fragment {
                 mposts.addAll(objects);
                 adapter.notifyDataSetChanged();
                 for (int i = 0; i < objects.size(); i++){
-                    Log.d(TAG, "POST: " + objects.get(i).getDescrption() + " USERNAME: " + objects.get(i).getUser().getUsername());
+                    Log.d(TAG, "POST: " + objects.get(i).getDescrption() + " USERNAME: " + objects.get(i).getUser().getUsername() +" TIME" +objects.get(i).getcreatedAt());
                 }
             }
         });
