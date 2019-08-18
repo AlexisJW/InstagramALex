@@ -42,9 +42,13 @@ public class MainActivity extends AppCompatActivity {
           case R.id.action_compose:
             fragment = new ComposeFragment();
             break;
-          case R.id.action_user:
-            //fragment = new Logout();
-            fragment = new ProfileFragment();
+          case R.id.action_logout:
+            fragment = new Logout();
+
+            break;
+
+            case R.id.action_user:
+              fragment = new ProfileFragment();
           default:
             break;
         }
