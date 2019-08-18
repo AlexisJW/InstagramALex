@@ -1,4 +1,4 @@
-# Project week 5 - *InstagramAlex*
+# Project week 6 - *InstagramAlex*
 
 **Name of your app** is a photo sharing app similar to Instagram but using Parse as its backend.
 
